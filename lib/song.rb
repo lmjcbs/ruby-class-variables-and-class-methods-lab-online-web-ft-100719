@@ -9,7 +9,7 @@ class Song
   @@artist_count = {}
 
   def initialize
-
+    @@count++
   end
 
 end
