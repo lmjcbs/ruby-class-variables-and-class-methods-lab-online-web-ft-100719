@@ -15,10 +15,6 @@ class Song
     @@artists << artist
   end
 
-  def genre=(genre)
-    @genre = genre
-  end
-
   def count
     @@count
   end
