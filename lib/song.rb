@@ -44,6 +44,7 @@ class Song
     artist_count = Hash.new
     @@artists.each do |artist|
       if !artist_count.has_key?(artist)
+        artist_count[artist] = 1
     end
   end
 
