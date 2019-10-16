@@ -17,7 +17,7 @@ class Song
   end
 
   def genres
-
+    @@genres
   end
 
 end
